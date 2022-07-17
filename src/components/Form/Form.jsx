@@ -26,7 +26,7 @@ export class Form extends React.Component {
     return (
       <FormName onSubmit={this.hendelSubmit}>
         <Label>
-          Name <br></br>
+          Name
           <InputName
             type="text"
             name="name"
@@ -35,11 +35,10 @@ export class Form extends React.Component {
             required
             value={name}
             onChange={this.onAddInfo}
-          ></InputName>
+          />
         </Label>{' '}
-        <br></br>
         <Label>
-          Number <br></br>
+          Number
           <InputName
             type="tel"
             name="number"
@@ -48,9 +47,8 @@ export class Form extends React.Component {
             required
             value={number}
             onChange={this.onAddInfo}
-          ></InputName>
+          />
         </Label>{' '}
-        <br></br>
         <Button type="submit">Add contact</Button>
       </FormName>
     );
