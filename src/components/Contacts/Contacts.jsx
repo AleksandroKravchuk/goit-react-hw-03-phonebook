@@ -12,7 +12,7 @@ const Contacts = ({ name, deleteName }) => (
           tel={item.number}
           id={item.id}
           deleteName={deleteName}
-        ></ContactName>
+        />
       </ContactsItem>
     ))}
   </ContactsList>
